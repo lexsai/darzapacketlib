@@ -2,7 +2,7 @@
 
 import struct
 
-from packets.packet_types import Position, Color
+from darzapacketlib.packet_types import Position, Color
 
 class StreamWriter:
     """This class represents a writer for streams of binary data."""

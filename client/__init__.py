@@ -1,8 +1,8 @@
-"""__init__ file for module containing client packets."""
+"""__init__ file for module containing client darzapacketlib."""
 
-from packets.client.activate_object import ActivateObjectPacket
-from packets.client.ally_hit import AllyHitPacket
-from packets.client.buy_item import BuyItemPacket
-from packets.client.camera_target_ack import CameraTargetAckPacket
-from packets.client.chat import ChatPacket
-from packets.client.check_ping import CheckPingPacket
+from darzapacketlib.client.activate_object import ActivateObjectPacket
+from darzapacketlib.client.ally_hit import AllyHitPacket
+from darzapacketlib.client.buy_item import BuyItemPacket
+from darzapacketlib.client.camera_target_ack import CameraTargetAckPacket
+from darzapacketlib.client.chat import ChatPacket
+from darzapacketlib.client.check_ping import CheckPingPacket

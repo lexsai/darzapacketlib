@@ -1,5 +1,5 @@
-"""__init__ file for module containing client packets."""
+"""__init__ file for module containing client darzapacketlib."""
 
-from packets.server.chats import ChatsPacket
-from packets.server.world_popup import WorldPopupPacket
-from packets.server.reconnect import ReconnectPacket
+from darzapacketlib.server.chats import ChatsPacket
+from darzapacketlib.server.world_popup import WorldPopupPacket
+from darzapacketlib.server.reconnect import ReconnectPacket

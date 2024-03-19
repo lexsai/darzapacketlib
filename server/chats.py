@@ -1,10 +1,10 @@
 """This module contains a class representing an Chats packet."""
 
-from packets.packet import Packet
-from packets.packet_ids import PACKET_NAME_TO_ID
-from packets.packet_types import ChatItem, Color
-from packets.stream_reader import StreamReader
-from packets.stream_writer import StreamWriter
+from darzapacketlib.packet import Packet
+from darzapacketlib.packet_ids import PACKET_NAME_TO_ID
+from darzapacketlib.packet_types import ChatItem, Color
+from darzapacketlib.stream_reader import StreamReader
+from darzapacketlib.stream_writer import StreamWriter
 
 class ChatsPacket(Packet):
     """Class representing an Chats packet."""

@@ -1,10 +1,10 @@
 """This module contains a class representing an ActivateObject packet."""
 
-from packets.packet import Packet
-from packets.packet_ids import PACKET_NAME_TO_ID
-from packets.packet_types import Position
-from packets.stream_reader import StreamReader
-from packets.stream_writer import StreamWriter
+from darzapacketlib.packet import Packet
+from darzapacketlib.packet_ids import PACKET_NAME_TO_ID
+from darzapacketlib.packet_types import Position
+from darzapacketlib.stream_reader import StreamReader
+from darzapacketlib.stream_writer import StreamWriter
 
 class ActivateObjectPacket(Packet):
     """Class representing an ActivateObject packet."""

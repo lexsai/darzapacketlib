@@ -2,7 +2,7 @@
 
 import struct
 
-from packets.packet_types import Position, Color
+from darzapacketlib.packet_types import Position, Color
 
 class StreamReader:
     """This class represents a reader for streams of binary data."""
